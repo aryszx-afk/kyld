@@ -1,0 +1,13 @@
+[ req ]
+distinguished_name = dn
+prompt = no
+
+[ dn ]
+CN = keyauth.win
+
+[ v3 ]
+basicConstraints = CA:FALSE
+keyUsage = digitalSignature
+subjectAltName = DNS:keyauth.win
+[ alt_names ]
+DNS.1 = keyauth.win
